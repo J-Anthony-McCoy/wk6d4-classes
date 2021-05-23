@@ -33,13 +33,16 @@ public class Pet {
         this.location = location;
     }
 
-//    Constructor
+//    Constructor with variables
     public Pet(String name, int age, String location, String type) {
         this.name = name;
         this.age = age;
         this.location = location;
         this.type = type;
+    }
 
+//        Empty constructor
+        public Pet(){
 
     }
 }
